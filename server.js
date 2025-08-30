@@ -14,10 +14,10 @@ app.use(express.static("public"));
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 const db = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: process.env.DB_NAME
+  host: "localhost",
+  user: "root",      
+  password: "Vincy23",      
+  database: "job_db" 
 });
 
 db.connect(err => {
