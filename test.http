@@ -1,0 +1,13 @@
+POST http://localhost:5000/api/jobs
+Content-Type: application/json
+
+{
+  "title": "Frontend Developer",
+  "company": "ABC Corp",
+  "location": "Remote",
+  "jobType": "Full-time",
+  "minSalary": 200000,
+  "maxSalary": 1200000,
+  "jobDescription": "Build user interfaces",
+  "deadline": "2025-12-31"
+}
